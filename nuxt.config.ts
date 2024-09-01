@@ -5,8 +5,13 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       "Playfair Display SC": true,
-      Inter: "200...700",
+      Inter: true,
     },
+
+    download: true,
+  },
+  nitro: {
+    static: true,
   },
   tailwindcss: {
     config: {
@@ -20,10 +25,10 @@ export default defineNuxtConfig({
       },
     },
   },
-    css: ['./assets/css/main.css'],
+  css: ["./assets/css/main.css"],
   modules: [
-   "@nuxtjs/tailwindcss",
-   "@nuxtjs/google-fonts",
-   "nuxt-feather-icons",
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-fonts",
+    "nuxt-feather-icons",
   ],
 });
