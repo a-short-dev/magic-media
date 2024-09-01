@@ -1,23 +1,4 @@
-<script lang="ts">
-const nav = [
-  {
-    label: "Movies",
-    to: "#",
-  },
-  {
-    label: "Trailers",
-    to: "#",
-  },
-  {
-    label: "Awards",
-    to: "#",
-  },
-  {
-    label: "News & Press",
-    to: "#",
-  },
-];
-</script>
+
 
 <template>
   <div>
